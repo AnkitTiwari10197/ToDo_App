@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <i class="fa-solid fa-clipboard-list" style="color: #63E6BE;"></i>
+    <link href="./style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+
+    <div id="heading">
+        <h1 >
+            <img src="./Images/check-double-solid.svg" style="height: 2rem; width: 2rem;"/>
+            Todo Application
+            
+        </h1>
+    
+        <div id="container">
+            <div id="input-div">
+                <input id="add" type="text" placeholder="Add your task" />
+                <button id="btn" class="addbtn">Add</button>
+                <div id="totaltask">Total tasks :<span id="task-counter"> 0</span></div>
+                
+            </div>
+
+            <ul id="list">
+                
+                <!-- We are leaving it empty now. As soon as we enter the task and hit enter 
+                it will get displayed in this unordered list 
+                This will be done on runtime only. We are not hardcoding this.
+                -->
+            </ul>
+    
+            
+    
+        </div>
+
+    </div>
+    
+    <script src="./script.js" type="text/javascript"></script>
+    
+</body>
+</html>
